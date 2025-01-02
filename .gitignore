@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+ai-caption-generator-frontend/node_modules/
+ai-caption-generator-backend/node_modules/
+.pnp/
+.pnp.js
+
+# testing
+ai-caption-generator-frontend/coverage/
+ai-caption-generator-backend/coverage/
+
+# production
+ai-caption-generator-frontend/build/
+ai-caption-generator-backend/build/
+
+# misc
+ai-caption-generator-frontend/.DS_Store
+ai-caption-generator-frontend/.env.local
+ai-caption-generator-frontend/.env.development.local
+ai-caption-generator-frontend/.env.test.local
+ai-caption-generator-frontend/.env.production.local
+ai-caption-generator-frontend/.env
+ai-caption-generator-backend/.DS_Store
+ai-caption-generator-backend/.env.local
+ai-caption-generator-backend/.env.development.local
+ai-caption-generator-backend/.env.test.local
+ai-caption-generator-backend/.env.production.local
+ai-caption-generator-backend/.env
+
+ai-caption-generator-frontend/npm-debug.log*
+ai-caption-generator-frontend/yarn-debug.log*
+ai-caption-generator-frontend/yarn-error.log*
+ai-caption-generator-backend/npm-debug.log*
+ai-caption-generator-backend/yarn-debug.log*
+ai-caption-generator-backend/yarn-error.log*
